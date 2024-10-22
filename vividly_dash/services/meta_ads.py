@@ -1,0 +1,1 @@
+from facebook_business.adobjects.adsinsights import AdsInsights
