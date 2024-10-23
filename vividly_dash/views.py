@@ -11,5 +11,5 @@ def access_token(server: Flask) -> None:
             auth_code = request.args.get("access_token")
             endpoint = META_ACCESS_TOKEN_URL + f"&code={auth_code}"
             response = requests.get(endpoint)
-            return jsonify(response)
+            return response.json
         return "Error"
