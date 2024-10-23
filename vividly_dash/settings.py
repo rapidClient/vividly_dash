@@ -13,7 +13,7 @@ APP_ID = os.getenv("APP_ID")
 # id = '<AD_ACCOUNT_ID>'
 
 # URL
-HOST_URL = "https://127.0.0.1:8050"
+HOST_URL = "https://vividly-dash.onrender.com"
 REDIRECT_URL = f"{HOST_URL}/access_token"
 
 # Themes
